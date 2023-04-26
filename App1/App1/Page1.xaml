@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="45">Hello</Label>
+
+            <StackLayout Padding="90,90,90,90">
+                <Image x:Name="MyImage" CompressedLayout.IsHeadless="False"/>
+                </StackLayout>
+            <StackLayout Padding="50,30,50,30">
+                <Button Text="Next" BackgroundColor="LightGreen" TextColor="White" CornerRadius="15"></Button>
+            </StackLayout>
+                 
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

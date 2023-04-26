@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Button Text="Select Pic from gallery" Clicked="btn1"></Button>
+        <Button Text="Take a photo from camera" Clicked="btn2"></Button>
+        <Button Text="Submit"  Clicked="btn3"></Button>
+
+
+    </StackLayout>
+
+</ContentPage>
